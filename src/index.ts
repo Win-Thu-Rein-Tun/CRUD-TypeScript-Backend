@@ -5,6 +5,8 @@ import cookieParser from 'cookie-parser';
 import compression from 'compression';
 import cors from 'cors';
 
+import mongoose from 'mongoose';
+
 const app = express();
 
 app.use(cors({ credentials: true }));
@@ -18,3 +20,10 @@ const server = http.createServer(app);
 server.listen(6969, () => {
   console.log('Server running on http://localhost:6969/');
 });
+
+const MONGO_URL =
+  'mongodb+srv://shinedsun:C7YNmGxkhGGsNz0W@cluster0.hlzekef.mongodb.net/?retryWrites=true&w=majority';
+
+mongoose.Promise = Promise;
+mongoose.connect(MONGO_URL);
+mongoose.connection.on('error', (error: Error) => console.log(error));
