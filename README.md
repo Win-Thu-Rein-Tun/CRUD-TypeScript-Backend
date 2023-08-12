@@ -1,4 +1,4 @@
-# Simple-TypeScript-Backend
+# CRUD-TypeScript-Backend
 
 This is a repository for a REST API using Node, Express, Typescript & MongoDB.
 
