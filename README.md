@@ -45,13 +45,13 @@ To set up and run this project on your local machine, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/rest-api-node-express-typescript.git
+git clone https://github.com/Win-Thu-Rein-Tun/REST-API-TypeScript.git
 ```
 
 2. Install dependencies:
 
 ```bash
-cd rest-api-node-express-typescript
+cd REST-API-TypeScript
 npm install
 ```
 3. Configure your MongoDB connection settings in the src/config.ts file.
