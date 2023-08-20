@@ -63,10 +63,5 @@ Start the server:
 ```bash
 npm start
 ```
-Access the API at http://localhost:3000 or the specified port. You can use tools like Postman to interact with the API's endpoints.
 
-## Endpoints
-
-| Endpoint        | Description                              |
-| :-------------- | :--------------------------------------- |
-| `GET /api`      | Starts a development instance of the app |
+Access the API at http://localhost:6969 or the specified port.
